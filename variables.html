@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Programando con DROPSY - Movimiento</title>
+    <title>Programando con DROPSY - Variables</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -69,7 +69,7 @@
                     <div class="intro-text">
                         <h1>Programando con DROPSY</h1>
                         <hr class="star-light">
-                        <h2>Unidad 2: Movimiento</h2>
+                        <h2>Unidad 4: Variables</h2>
                     </div>
                 </div>
             </div>
@@ -80,44 +80,103 @@
         <div class="container">
             <h2>Bienvenido</h2>
             <p style="padding: 0em 0em 2em 0em">
-                Bienvenido a la Unidad numero 2 de Programando con DROPSY!
+                Bienvenido a la Unidad numero 4 de Programando con DROPSY!
                 <br/>
-                Esta unidad se centra en la parte mas simple pero mas importante de DROPSY, mover el robot!
+                En esta unidad aprenderas como usar <b>variables</b> en tus proyectos!
             </p>
 
-            <h2>Introducción</h2>
+            <h2>Creando Variables</h2>
             <p style="padding: 0em 0em 2em 0em">
-                Como ya mencionamos, dentro de DROPSY podrás encontrar distintos bloques con los cuales vas a poder crear tus proyectos.
+                Las variables son contenedores donde podes almacenar valores.
                 <br/>
-                Existen 2 bloques que nos permiten mover al robot, uno nos permite moverlo hacia <b>adelante</b> o hacia <b>atrás</b>, y el otro nos permite hacerlo girar hacia la <b>derecha</b> o hacia la <b>izquierda</b>.
-                Para utilizarlos los arrastramos desde la categoria de movimientos que se encuentra en nuestra caja de herramientas:
+                Luego, durante la ejecucion de tu proyecto, podes utilizar el valor contenido dentro de los contenedores.
+                <br/>
+                Por ejemplo, podes tener una variable llamada cantidad que almacene la cantidad de veces que queres mover el robot.
             </p>
             <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/blank_project.png" alt="robot" >
+            <img class="img-responsive" src="img/programming/poner_cantidad.png" alt="robot" >
             </p>
             <p style="padding: 0em 0em 2em 0em">
-                Al hacer tap en la categoria Movimiento, podemos acceder a los bloques que contiene:
+                Luego, podes utilizar esa variable en tu proyecto, en lugar de usar numeros:
             </p>
             <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/movimiento.png" alt="robot" >
+            <img class="img-responsive" src="img/programming/repetir_cantidad.png" alt="robot" >
             </p>
             <p style="padding: 0em 0em 2em 0em">
-                Luego podemos arrastrar los bloques que queramos y colocarlos en nuestro proyecto. 
-                <br/>
-                Recordá que los bloques pueden apilarse para ser ejecutados uno despues de otro, así: 
+                Para lograr esto simplemente debemos abrir la categoria Variables
             </p>
             <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/sample_movimiento.png" alt="robot" >
+            <img class="img-responsive" src="img/programming/variables.png" alt="robot" >
+            </p>
+            <p style="padding: 0em 5em 2em 5em">
+            <img class="img-responsive" src="img/programming/variables_abierto.png" alt="robot" >
             </p>
             <p style="padding: 0em 0em 2em 0em">
-                Tambien recordá que los valores de nuestros bloques pueden modificarse.
-                <br/>
-                En este caso el bloque Mover puede ser hacia Adelante o hacia Atras por cualquier cantidad de segundos.
-                <br/>
-                El bloque Girar puede ser a la Izquierda o a la Derecha por 90, 180, 270 o 360 grados.
+                Y arrastramos el bloque "poner item"
             </p>
             <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/sample_movimiento_config.png" alt="robot" >
+            <img class="img-responsive" src="img/programming/poner_item.png" alt="robot" >
+            </p>
+            <h2>Editando Variables</h2>
+            <p style="padding: 0em 0em 2em 0em">
+                Para renombrar la variable pulsamos el nombre y luego seleccionamos "Renombrar Variable":
+            </p>
+            <p style="padding: 0em 5em 2em 5em">
+            <img class="img-responsive" src="img/programming/renombrar_variable_1.png" alt="robot" >
+            </p>
+            <p style="padding: 0em 5em 2em 5em">
+            <img class="img-responsive" src="img/programming/renombrar_variable_2.png" alt="robot" >
+            </p>
+            <p style="padding: 0em 0em 2em 0em">
+                Ingresamos el nombre que queremos y pulsamos OK
+            </p>
+            <p style="padding: 0em 5em 2em 5em">
+            <img class="img-responsive" src="img/programming/renombrar_variable_3.png" alt="robot" >
+            </p>
+            <p style="padding: 0em 5em 2em 5em">
+            <img class="img-responsive" src="img/programming/renombrar_variable_4.png" alt="robot" >
+            </p>
+            <p style="padding: 0em 0em 2em 0em">
+                Para editar el valor que queremos almacenar pulsamos el valor e ingresamos el nuevo valor.
+            </p>
+            <p style="padding: 0em 5em 2em 5em">
+            <img class="img-responsive" src="img/programming/editar_variable_1.png" alt="robot" >
+            </p>
+            <p style="padding: 0em 5em 2em 5em">
+            <img class="img-responsive" src="img/programming/editar_variable_2.png" alt="robot" >
+            </p>
+            <h2>Utilizando Variables</h2>
+            <p style="padding: 0em 0em 2em 0em">
+                Para leer el valor almacenado en una variable utilizamos el bloque de lectura de variables y lo colocamos en lugar de cualquier numero.
+                <br/>
+                Por ejemplo, en el bloque Mover:
+            </p>
+            <p style="padding: 0em 5em 2em 5em">
+            <img class="img-responsive" src="img/programming/leer_cantidad_2.png" alt="robot" >
+            </p>
+            <p style="padding: 0em 5em 2em 5em">
+            <img class="img-responsive" src="img/programming/leer_cantidad_1.png" alt="robot" >
+            </p>
+            <h2>Modificando Variables</h2>
+            <p style="padding: 0em 0em 2em 0em">
+                Una forma muy util de modificar el valor de una variable es hacerlo usando el valor que esta almacenado en la variable.
+                <br/>
+                Por ejemplo, el siguiente proyecto pone el valor de "cantidad" en 5 y luego incrementa en 1 el valor almacenado en la variable, por lo que al finalizar la ejecucion el valor almacenado en "cantidad" será 6:
+            </p>
+            <p style="padding: 0em 5em 2em 5em">
+            <img class="img-responsive" src="img/programming/cantidad_mas_uno.png" alt="robot" >
+            </p>
+            <p style="padding: 0em 0em 2em 0em">
+                Utilizando esta tecnica, podemos cambiar el rumbo de la ejecucion segun el valor contenido en la variable.
+                <br/>
+                Por ejemplo, el siguiente proyecto decrementa el valor de "cantidad" en 1 cada vez que el robot avanza:
+            </p>
+            <p style="padding: 0em 5em 2em 5em">
+            <img class="img-responsive" src="img/programming/variable_avanzado.png" alt="robot" >
+            </p>
+            <p style="padding: 0em 0em 2em 0em">
+                En este proyecto, el robot se mueve la primera vez por 5 segundos, la segunda por 4 segundos, la tercera por 3 segundos, 
+                la cuarta por 2 segundos y la quinta vez por solo 1 segundo.
             </p>
         </div>
     </section>
@@ -132,41 +191,29 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#ejercicio1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/ejercicios/movimiento/ejercicio_1.png" class="img-responsive" alt="">
+                        <img src="img/ejercicios/variables/ejercicio_1.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#ejercicio2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/ejercicios/movimiento/ejercicio_2.png" class="img-responsive" alt="">
+                        <img src="img/ejercicios/variables/ejercicio_2.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#ejercicio3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/ejercicios/movimiento/ejercicio_3.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-
             </div>
         </div>
     </section>
-
 
     <!-- About Section -->
     <section class="success" id="about">
@@ -185,11 +232,6 @@
             <p style="text-align: center;">
                 <a style="color: white; text-decoration: underline; font-size: 1.5em;" href="#solucion2" class="portfolio-link" data-toggle="modal">
                     Ejercicio 2
-                </a>
-            </p>
-            <p style="text-align: center;">
-                <a style="color: white; text-decoration: underline; font-size: 1.5em;" href="#solucion3" class="portfolio-link" data-toggle="modal">
-                    Ejercicio 3
                 </a>
             </p>
         </div>
@@ -220,6 +262,8 @@
         </div>
     </footer>
 
+    <!-- MODALES EJERCICIOS -->
+
     <div class="portfolio-modal modal fade" id="ejercicio1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -234,16 +278,18 @@
                         <div class="modal-body">
                             <h2>Ejercicio 1</h2>
                             <hr class="star-primary">
-                            <img src="img/ejercicios/movimiento/ejercicio_1.png" class="img-responsive img-centered" alt="">
+                            <img src="img/ejercicios/variables/ejercicio_1.png" class="img-responsive img-centered" alt="">
                             <p>En este ejercicio deberas reproducir la figura mostrada moviendo el robot.</p>
-                            <p>Solo debes utilizar los bloques Mover y Girar.</p>
+                            <p>Puedes utilizar los bloques Mover, Girar, Repetir y Variables (Poner y Leer) </p>
+                            <p>No debes repetir la misma secuencia de bloques mas de una vez.</p>
+                            <p>Debes utilizar el bloque repetir <b>UNA</b> vez y UNA <b>variable</b> .</p>
                             <ul class="list-inline item-details">
                                 <li>Bloques Permitidos:
-                                    <strong><a> Mover, Girar</a>
+                                    <strong><a> Mover, Girar, Repetir, Variables (Poner y Leer) </a>
                                     </strong>
                                 </li>
                                 <li>Dificultad:
-                                    <strong><a> Principiante</a>
+                                    <strong><a> Intermedio</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -268,50 +314,18 @@
                         <div class="modal-body">
                             <h2>Ejercicio 2</h2>
                             <hr class="star-primary">
-                            <img src="img/ejercicios/movimiento/ejercicio_2.png" class="img-responsive img-centered" alt="">
+                            <img src="img/ejercicios/variables/ejercicio_1.png" class="img-responsive img-centered" alt="">
                             <p>En este ejercicio deberas reproducir la figura mostrada moviendo el robot.</p>
-                            <p>Solo debes utilizar los bloques Mover y Girar.</p>
+                            <p>Puedes utilizar los bloques Mover, Girar, Repetir y Variables (Poner y Leer) </p>
+                            <p>No debes repetir la misma secuencia de bloques mas de una vez.</p>
+                            <p>Debes utilizar el bloque repetir <b>UNA</b> vez y UNA <b>variable</b> .</p>
                             <ul class="list-inline item-details">
                                 <li>Bloques Permitidos:
-                                    <strong><a> Mover, Girar</a>
+                                    <strong><a> Mover, Girar, Repetir, Variables (Poner y Leer) </a>
                                     </strong>
                                 </li>
                                 <li>Dificultad:
-                                    <strong><a> Principiante</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="ejercicio3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-           <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Ejercicio 3</h2>
-                            <hr class="star-primary">
-                            <img src="img/ejercicios/movimiento/ejercicio_3.png" class="img-responsive img-centered" alt="">
-                            <p>En este ejercicio deberas reproducir la figura de un cuadrado moviendo el robot.</p>
-                            <p>Solo debes utilizar los bloques Mover y Girar.</p>
-                            <ul class="list-inline item-details">
-                                <li>Bloques Permitidos:
-                                    <strong><a> Mover, Girar</a>
-                                    </strong>
-                                </li>
-                                <li>Dificultad:
-                                    <strong><a> Principiante</a>
+                                    <strong><a> Intermedio</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -323,7 +337,7 @@
         </div>
     </div>
 
-<!-- MODALES SOLUCIONES -->
+    <!-- MODALES SOLUCIONES -->
 
     <div class="portfolio-modal modal fade" id="solucion1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
@@ -339,8 +353,9 @@
                         <div class="modal-body">
                             <h2>Solucion Ejercicio 1</h2>
                             <hr class="star-primary">
-                            <img src="img/ejercicios/movimiento/solucion_1.png" class="img-responsive img-centered" alt="">
-        
+                            <p>Cualquiera de las siguientes es valida:.</p>
+                            <img src="img/ejercicios/variables/solucion_1_1.png" class="img-responsive img-centered" alt="">
+                            <img src="img/ejercicios/variables/solucion_1_2.png" class="img-responsive img-centered" alt="">
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
                     </div>
@@ -364,7 +379,9 @@
                         <div class="modal-body">
                             <h2>Ejercicio 2</h2>
                             <hr class="star-primary">
-                            <img src="img/ejercicios/movimiento/solucion_2.png" class="img-responsive img-centered" alt="">
+                            <p>Cualquiera de las siguientes es valida:.</p>
+                            <img src="img/ejercicios/variables/solucion_2_1.png" class="img-responsive img-centered" alt="">
+                            <img src="img/ejercicios/variables/solucion_2_2.png" class="img-responsive img-centered" alt="">
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
                     </div>
@@ -372,32 +389,6 @@
             </div>
         </div>
     </div>
-
-    <div class="portfolio-modal modal fade" id="solucion3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Ejercicio 3</h2>
-                            <hr class="star-primary">
-                            <p>Cualquiera de las siguientes es valida:</p>
-                            <img src="img/ejercicios/movimiento/solucion_3_1.png" class="img-responsive img-centered" alt="">
-                            <img src="img/ejercicios/movimiento/solucion_3_2.png" class="img-responsive img-centered" alt="">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
