@@ -15,7 +15,7 @@
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
         target: '.navbar-fixed-top',
-        offset: 51
+        offset: 160
     });
 
     // Closes the Responsive Menu on Menu Item Click
@@ -40,5 +40,13 @@
             $(this).removeClass("floating-label-form-group-with-focus");
         });
     });
+
+    var offset = 30;
+
+    // $('.navbar li a').click(function(event) {
+    //     event.preventDefault();
+    //     $($(this).attr('href'))[0].scrollIntoView();
+    //     scrollBy(0, -offset);
+    // });
 
 })(jQuery); // End of use strict

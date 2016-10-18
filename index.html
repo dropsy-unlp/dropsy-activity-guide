@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body >
 
     <!-- Navigation -->
     <nav role="menu" class="navbar navbar-default navbar-fixed-top navbar-custom">
@@ -37,21 +37,29 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="page-scroll">
-                        <a href="./introduccion.html">1. Introducion</a>
+                    <li><a href="#home">Quienes somos</a></li> 
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Unidades
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                        <li>
+                        <a class="dropdown-item" href="./introduccion.html">1. Introducion</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="./movimiento.html">2. Movimiento</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="./iteracion.html">3. Iteracion</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="./variables.html">4. Variables</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="./seleccion.html">5. Seleccion</a>
+                        </li>
+                        </ul>
                     </li>
-                    <li class="page-scroll">
-                        <a href="./movimiento.html">2. Movimiento</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="./iteracion.html">3. Iteracion</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="./variables.html">4. Variables</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="./seleccion.html">5. Seleccion</a>
-                    </li>
+                    <li><a href="#contacto">Contacto</a></li> 
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -77,7 +85,7 @@
 
     <section id="home">
         <div class="container">
-            <h2>¿Qué es DROPSY?</h2>
+            <h2 style="padding: 1em 0em 0em 0em">¿Qué es DROPSY?</h2>
             <p style="padding: 0em 0em 2em 0em">
                 DROPSY es un trabajo desarrollado por Matias Fuentes y Diego Fernández en el año 2016 para sus tesinas de grado de Licenciatura en Informática y en Sistemas respectivamente. El mismo consta de una aplicación móvil Android especialmente desarrollada para ser utilizada como recurso educativo que le permita a personas de todas las edades dar sus primeros pasos en la programación, aprendiendo conceptos básicos como estructuras de control, variables y más.
                 </br>
@@ -104,17 +112,18 @@
     </section>
 
     <!-- About Section -->
-    <section class="success" id="about">
+    <section class="success" id="contacto">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>GitHub</h2>
+                    <h2 >GitHub</h2>
                     <hr class="star-light">
                 </div>
             </div>
             <p style="text-align: center;">
                 <a style="color: white; text-decoration: underline; font-size: 1.5em;" href="https://github.com/dropsy-unlp">github.com/dropsy-unlp</a>
             </p>
+            
         </div>
     </section>
 
@@ -155,6 +164,6 @@
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
+    <script src="js/freelancer.js"></script>
 </body>
 </html>
