@@ -98,37 +98,116 @@
             <p style="padding: 0em 0em 2em 0em">
                 Las condiciones son bloques especiales que permiten tomar decisiones en nuestros programas. 
                 <br/>
-                Por ejemplo podríamos decirle al robot que gire a la izquierda si una <b>variable </b>guarda el valor <b>1</b> y a la derecha si guarda algun otro valor.         
+                Por ejemplo podríamos decirle al robot que gire a la izquierda si y solo si una <b>variable </b>guarda el valor <b>1</b>.
+                <br/>
+                Esto se logra utilizando el bloque <b>Si - Entonces</b>.
+                <br/>
+                Para utilizarlo lo seleccionamos de la pestaña <b>Lógica</b> y lo arrastramos al área de trabajo:
             </p>
             <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/poner_cantidad.png" alt="robot" >
+            <img class="img-responsive" src="img/programming/seleccion_1.png" alt="robot" >
             </p>
             <p style="padding: 0em 5em 2em 5em">
-                La condición más simple que se puede crear es un bloque <b>Si - Entonces</b>
+            <img class="img-responsive" src="img/programming/seleccion_2.png" alt="robot" >
             </p>
             <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/variables_abierto.png" alt="robot" >
+            <img class="img-responsive" src="img/programming/seleccion_3.png" alt="robot" >
             </p>
-            <p style=style="padding: 0em 5em 2em 5em">
-                Para esto lo seleccionamos de la pestaña <b>Lógica</b> y lo arrastramos al área de trabajo.
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/poner_item.png" alt="robot" >
-            </p>
-             <p style=style="padding: 0em 5em 2em 5em">
-                Luego agregamos una variable que será la que permita tomar la decision, y las acciones que tomaremos si la condición es verdadera.
+            <p style="padding: 0em 0em 2em 0em">
+                Luego agregamos una variable que será la que permita tomar la decision:
             </p>
             <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/renombrar_variable_1.png" alt="robot" >
+            <img class="img-responsive" src="img/programming/seleccion_4.png" alt="robot" >
+            </p>
+            <p style="padding: 0em 0em 2em 0em">
+                Luego debemos crear la <b>condicion</b> con la que el robot decidira, por ejemplo la condicion puede ser <b>item = 0</b>:
             </p>
             <p style="padding: 0em 5em 2em 5em">
+            <img class="img-responsive" src="img/programming/seleccion_5.png" alt="robot" >
+            </p>
+            <p style="padding: 0em 5em 2em 5em">
+            <img class="img-responsive" src="img/programming/seleccion_6.png" alt="robot" >
+            </p>
+            <p style="padding: 0em 5em 2em 5em">
+            <img class="img-responsive" src="img/programming/seleccion_7.png" alt="robot" >
+            </p>
+            <p style="padding: 0em 5em 2em 5em">
+            <img class="img-responsive" src="img/programming/seleccion_8.png" alt="robot" >
+            </p>
+            <p style="padding: 0em 0em 2em 0em">
+                Por ultimo agregamos los bloques que queremos que se ejecuten si se cumple la condicion:
+            </p>
+            <p style="padding: 0em 5em 2em 5em">
+            <img class="img-responsive" src="img/programming/seleccion_9.png" alt="robot" >
+            </p>
+            <p style="padding: 0em 0em 2em 0em">
+                Como en el proyecto anterior el valor de item es 0, entonces <b>item = 0</b> es una condicion <b>VERDADERA</b> y el robot se movera hacia adelante por 10 segundos.
+                <br/>
+                En el siguiente proyecto, en cambio, el valor de item es 5, por lo que <b>item = 0</b> es una condicion <b>FALSA</b> y el robot no se movera:
+            </p>
+            <p style="padding: 0em 5em 2em 5em">
+            <img class="img-responsive" src="img/programming/seleccion_10.png" alt="robot" >
+            </p>
+            <p style="padding: 0em 0em 2em 0em">
+                Entendiendo estos conceptos podemos crear proyectos mas complejos. 
+                <br/>
+                Por ejemplo, el siguiente proyecto mueve el robot hacia adelante 4 veces, pero gira hacia la izquierda <b>solo 1 vez<b/>, luego de moverse hacia adelante por segunda vez.
+            </p>
+            <p style="padding: 0em 5em 2em 5em">
+            <img class="img-responsive" src="img/programming/seleccion_11.png" alt="robot" >
+            </p>
+<!--             <p style="padding: 0em 0em 2em 0em">
                 Las condiciones pueden ser compuestas, por ejemplo podriamos consultar el valor de dos variables para decidir si avanzar o retroceder.
             </p>
-            
+             -->
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Ejercicios</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#ejercicio1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/ejercicios/seleccion/ejercicio_1.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#ejercicio2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/ejercicios/seleccion/ejercicio_2.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#ejercicio3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/ejercicios/seleccion/ejercicio_3.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- About Section -->
     <section class="success" id="about">
         <div class="container">
             <div class="row">
@@ -145,6 +224,11 @@
             <p style="text-align: center;">
                 <a style="color: white; text-decoration: underline; font-size: 1.5em;" href="#solucion2" class="portfolio-link" data-toggle="modal">
                     Ejercicio 2
+                </a>
+            </p>
+            <p style="text-align: center;">
+                <a style="color: white; text-decoration: underline; font-size: 1.5em;" href="#solucion3" class="portfolio-link" data-toggle="modal">
+                    Ejercicio 3
                 </a>
             </p>
         </div>
@@ -174,6 +258,185 @@
             </div>
         </div>
     </footer>
+
+    <div class="portfolio-modal modal fade" id="ejercicio1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Ejercicio 1</h2>
+                            <hr class="star-primary">
+                            <img src="img/ejercicios/seleccion/ejercicio_1.png" class="img-responsive img-centered" alt="">
+                            <p>En este ejercicio deberas reproducir la figura mostrada moviendo el robot desde el punto A al punto B.</p>
+                            <p>Solo debes utilizar los bloques Mover y Girar.</p>
+                            <ul class="list-inline item-details">
+                                <li>Bloques Permitidos:
+                                    <strong><a> Mover, Girar</a>
+                                    </strong>
+                                </li>
+                                <li>Dificultad:
+                                    <strong><a> Principiante</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="ejercicio2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Ejercicio 2</h2>
+                            <hr class="star-primary">
+                            <img src="img/ejercicios/seleccion/ejercicio_2.png" class="img-responsive img-centered" alt="">
+                            <p>En este ejercicio deberas reproducir la figura mostrada moviendo el robot desde el punto A al punto B.</p>
+                            <p>Solo debes utilizar los bloques Mover y Girar.</p>
+                            <ul class="list-inline item-details">
+                                <li>Bloques Permitidos:
+                                    <strong><a> Mover, Girar</a>
+                                    </strong>
+                                </li>
+                                <li>Dificultad:
+                                    <strong><a> Principiante</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="ejercicio3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+           <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Ejercicio 3</h2>
+                            <hr class="star-primary">
+                            <img src="img/ejercicios/seleccion/ejercicio_3.png" class="img-responsive img-centered" alt="">
+                            <p>En este ejercicio deberas reproducir la figura de un cuadrado moviendo el robot desde el punto A al punto B.</p>
+                            <p>Solo debes utilizar los bloques Mover y Girar.</p>
+                            <ul class="list-inline item-details">
+                                <li>Bloques Permitidos:
+                                    <strong><a> Mover, Girar</a>
+                                    </strong>
+                                </li>
+                                <li>Dificultad:
+                                    <strong><a> Principiante</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- MODALES SOLUCIONES -->
+
+    <div class="portfolio-modal modal fade" id="solucion1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Solucion Ejercicio 1</h2>
+                            <hr class="star-primary">
+                            <img src="img/ejercicios/seleccion/solucion_1.png" class="img-responsive img-centered" alt="">
+        
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="portfolio-modal modal fade" id="solucion2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Solucion ejercicio 2</h2>
+                            <hr class="star-primary">
+                            <img src="img/ejercicios/seleccion/solucion_2.png" class="img-responsive img-centered" alt="">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="solucion3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Solucion ejercicio 3</h2>
+                            <hr class="star-primary">
+                            <p>Cualquiera de las siguientes soluciones es valida:</p>
+                            <img src="img/ejercicios/seleccion/solucion_3_1.png" class="img-responsive img-centered" alt="">
+                            <img src="img/ejercicios/seleccion/solucion_3_2.png" class="img-responsive img-centered" alt="">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- MODALES EJERCICIOS -->
 
