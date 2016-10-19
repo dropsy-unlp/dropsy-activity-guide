@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Programando con DROPSY - Selección</title>
+    <title>Programando con DROPSY - Iteracion</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -79,7 +79,7 @@
                     <div class="intro-text">
                         <h1>Programando con DROPSY</h1>
                         <hr class="star-light">
-                        <h2>Unidad 4: Selección</h2>
+                        <h2>Unidad 3: Iteracion</h2>
                     </div>
                 </div>
             </div>
@@ -90,77 +90,82 @@
         <div class="container">
             <h2>Bienvenido</h2>
             <p style="padding: 0em 0em 2em 0em">
-                Bienvenido a la Unidad numero 4 de Programando con DROPSY!
+                Bienvenido a la Unidad numero 3 de Programando con DROPSY!
                 <br/>
-                En esta unidad aprenderas sobre otro concepto importante para la programacion: Las condiciones!
+                En esta unidad aprenderas sobre un concepto muy importante en la programacion: La <b>iteracion</b>!
             </p>
 
-            <h2>Creando un bloque condicional</h2>
-            <p style="padding: 0em 0em 2em 0em">
-                Las condiciones son bloques especiales que permiten tomar decisiones en nuestros programas. 
-                <br/>
-                Por ejemplo podríamos decirle al robot que gire a la izquierda si y solo si una <b>variable </b>guarda el valor <b>1</b>.
-                <br/>
-                Esto se logra utilizando el bloque <b>Si - Entonces</b>.
-                <br/>
-                Para utilizarlo lo seleccionamos de la pestaña <b>Lógica</b> y lo arrastramos al área de trabajo:
+            <h2>Repeticion</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p style="padding: 0em 0em 2em 0em">
+                        Una de las cosas para lo que las computadoras son muy buenas es repetir instrucciones.
+                        <br/>
+                        Por ejemplo, si quisieramos mover el robot hacia adelante 100 veces de a 1 segundo por vez, esta seria una tarea larga y aburrida:
+                    </p>
+                </div>
+                <div class="col-md-6">
+                <p style="padding: 0em 0em 2em 0em">
+                <img class="img-responsive" src="img/programming/repetir_cien.png" alt="robot" >
+                </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p style="padding: 0em 0em 2em 0em">
+                        Pero utilizando iteraciones podemos hacer que esa tarea sea muy simple, utilizando el bloque REPETIR:
+                    </p>
+                </div>
+                <div class="col-md-6">
+                <p style="padding: 0em 0em 2em 0em">
+            <img class="img-responsive" src="img/programming/repetir_simple.png" alt="robot" >
+                </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                <p style="padding: 0em 0em 2em 0em">
+                Para lograr esto simplemente debemos abrir la categoria Iteracion:
             </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/seleccion_1.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/seleccion_2.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/seleccion_3.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 0em 2em 0em">
-                Luego agregamos una variable que será la que permita tomar la decision:
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/seleccion_4.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 0em 2em 0em">
-                Luego debemos crear la <b>condicion</b> con la que el robot decidira, por ejemplo la condicion puede ser <b>item = 0</b>:
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/seleccion_5.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/seleccion_6.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/seleccion_7.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/seleccion_8.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 0em 2em 0em">
-                Por ultimo agregamos los bloques que queremos que se ejecuten si se cumple la condicion:
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/seleccion_9.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 0em 2em 0em">
-                Como en el proyecto anterior el valor de item es 0, entonces <b>item = 0</b> es una condicion <b>VERDADERA</b> y el robot se movera hacia adelante por 10 segundos.
-                <br/>
-                En el siguiente proyecto, en cambio, el valor de item es 5, por lo que <b>item = 0</b> es una condicion <b>FALSA</b> y el robot no se movera:
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/seleccion_10.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 0em 2em 0em">
-                Entendiendo estos conceptos podemos crear proyectos mas complejos. 
-                <br/>
-                Por ejemplo, el siguiente proyecto mueve el robot hacia adelante 4 veces, pero gira hacia la izquierda <b>solo 1 vez</b>, luego de moverse hacia adelante por segunda vez.
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/seleccion_10.png" alt="robot" >
-            </p>
-<!--             <p style="padding: 0em 0em 2em 0em">
-                Las condiciones pueden ser compuestas, por ejemplo podriamos consultar el valor de dos variables para decidir si avanzar o retroceder.
-            </p>
-             -->
+                </div>
+                <div class="col-md-6">
+                <p style="padding: 0em 0em 2em 0em">
+            <img class="img-responsive" src="img/programming/iteracion.png" alt="robot" >
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6">
+                <p style="padding: 0em 0em 2em 0em">
+                    <img class="img-responsive" src="img/programming/iteracion_abierto.png" alt="robot" >
+                </p>
+                </div>
+            </div>
+             <div class="row">
+                <div class="col-md-6">
+                    <p style="padding: 0em 0em 2em 0em">
+                Y arrastramos el bloque Repetir 10 veces:
+                    </p>
+                </div>
+                <div class="col-md-6">
+                <p style="padding: 0em 0em 2em 0em">
+                    <img class="img-responsive" src="img/programming/repetir_veces.png" alt="robot" >
+                </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p style="padding: 0em 0em 2em 0em">
+                Luego podemos arrastrar los bloques que queramos dentro del bloque Repetir, y esos bloque se repetiran la cantidad de veces que queramos, por ejemplo 20:
+                    </p>
+                </div>
+                <div class="col-md-6">
+                <p style="padding: 0em 0em 2em 0em">
+            <img class="img-responsive" src="img/programming/sample_repetir.png" alt="robot" >
+                </p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -181,7 +186,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/ejercicios/seleccion/ejercicio_1.png" class="img-responsive" alt="">
+                        <img src="img/ejercicios/iteracion/ejercicio_1.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -191,7 +196,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/ejercicios/seleccion/ejercicio_2.png" class="img-responsive" alt="">
+                        <img src="img/ejercicios/iteracion/ejercicio_2.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -201,14 +206,15 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/ejercicios/seleccion/ejercicio_3.png" class="img-responsive" alt="">
+                        <img src="img/ejercicios/iteracion/ejercicio_3.png" class="img-responsive" alt="">
                     </a>
                 </div>
+
             </div>
         </div>
     </section>
 
-     <!-- About Section -->
+    <!-- About Section -->
     <section class="success" id="about">
         <div class="container">
             <div class="row">
@@ -260,6 +266,8 @@
         </div>
     </footer>
 
+    <!-- MODALES EJERCICIOS -->
+
     <div class="portfolio-modal modal fade" id="ejercicio1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -274,18 +282,18 @@
                         <div class="modal-body">
                             <h2>Ejercicio 1</h2>
                             <hr class="star-primary">
-                            <img src="img/ejercicios/seleccion/ejercicio_1.png" class="img-responsive img-centered" alt="">
-                            <p>En este ejercicio deberas reproducir la figura de un cuadrado moviendo el robot desde el punto A al punto B.</p>
-                            <p>Puedes utilizar <b>todos</b> los bloques.</p>
-                            <p>Debes utilizar solo <b>UN</b> bloque Mover.</p>
-                            <p>Debes utilizar el bloque repetir <b>UNA</b> vez, <b>UNA</b> variable y a lo sumo <b>DOS</b> bloques Si-Entonces.</p>                            
+                            <img src="img/ejercicios/iteracion/ejercicio_1.png" class="img-responsive img-centered" alt="">
+                            <p>En este ejercicio deberas reproducir la figura mostrada moviendo el robot desde el punto A al punto B.</p>
+                            <p>Solo debes utilizar los bloques Mover, Girar y repetir.</p>
+                            <p>No debes repetir la misma secuencia de bloques mas de una vez.</p>
+                            <p>Debes utilizar el bloque repetir <b>UNA</b> vez.</p>
                             <ul class="list-inline item-details">
                                 <li>Bloques Permitidos:
-                                    <strong><a> Todos</a>
+                                    <strong><a> Mover, Girar, Repetir</a>
                                     </strong>
                                 </li>
                                 <li>Dificultad:
-                                    <strong><a> Avanzado</a>
+                                    <strong><a> Principiante</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -310,18 +318,18 @@
                         <div class="modal-body">
                             <h2>Ejercicio 2</h2>
                             <hr class="star-primary">
-                            <img src="img/ejercicios/seleccion/ejercicio_2.png" class="img-responsive img-centered" alt="">
-                            <p>En este ejercicio deberas reproducir la figura de un cuadrado moviendo el robot desde el punto A al punto B.</p>
-                            <p>Puedes utilizar <b>todos</b> los bloques.</p>
+                            <img src="img/ejercicios/iteracion/ejercicio_2.png" class="img-responsive img-centered" alt="">
+                            <p>En este ejercicio deberas reproducir la figura mostrada moviendo el robot desde el punto A al punto B.</p>
+                            <p>Solo debes utilizar los bloques Mover, Girar y repetir.</p>
                             <p>No debes repetir la misma secuencia de bloques mas de una vez.</p>
-                            <p>Debes utilizar el bloque repetir <b>UNA</b> vez y <b>UNA</b> variable.</p>
+                            <p>Debes utilizar el bloque repetir <b>UNA</b> vez.</p>
                             <ul class="list-inline item-details">
                                 <li>Bloques Permitidos:
-                                    <strong><a> Todos</a>
+                                    <strong><a> Mover, Girar, Repetir</a>
                                     </strong>
                                 </li>
                                 <li>Dificultad:
-                                    <strong><a> Avanzado</a>
+                                    <strong><a> Principiante</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -346,18 +354,18 @@
                         <div class="modal-body">
                             <h2>Ejercicio 3</h2>
                             <hr class="star-primary">
-                            <img src="img/ejercicios/seleccion/ejercicio_3.png" class="img-responsive img-centered" alt="">
-                            <p>En este ejercicio deberas reproducir la figura de un cuadrado moviendo el robot desde el punto A al punto B.</p>
-                            <p>Puedes utilizar <b>todos</b> los bloques.</p>
-                            <p>No debes repetir la misma secuencia de bloques mas de una vez.</p>
-                            <p>Debes utilizar el bloque repetir <b>UNA</b> vez, <b>UNA</b> variable y a lo sumo <b>DOS</b> bloques Si-Entonces.</p>                                     
-                         <ul class="list-inline item-details">
+                            <img src="img/ejercicios/iteracion/ejercicio_3.png" class="img-responsive img-centered" alt="">
+                            <p>En este ejercicio deberas reproducir la figura mostrada moviendo el robot desde el punto A al punto B.</p>
+                            <p>Solo debes utilizar los bloques Mover, Girar y repetir.</p>
+                            <p>No debes utilizar la misma secuencia de bloques mas de una vez.</p>
+                            <p>Debes utilizar el bloque repetir <b>UNA</b> vez.</p>
+                            <ul class="list-inline item-details">
                                 <li>Bloques Permitidos:
-                                    <strong><a> Todos</a>
+                                    <strong><a> Mover, Girar, Repetir</a>
                                     </strong>
                                 </li>
                                 <li>Dificultad:
-                                    <strong><a> Avanzado</a>
+                                    <strong><a> Intermedio</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -369,7 +377,7 @@
         </div>
     </div>
 
-<!-- MODALES SOLUCIONES -->
+    <!-- MODALES SOLUCIONES -->
 
     <div class="portfolio-modal modal fade" id="solucion1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
@@ -385,7 +393,7 @@
                         <div class="modal-body">
                             <h2>Solucion Ejercicio 1</h2>
                             <hr class="star-primary">
-                            <img src="img/ejercicios/seleccion/solucion_1.png" class="img-responsive img-centered" alt="">
+                            <img src="img/ejercicios/iteracion/solucion_1.png" class="img-responsive img-centered" alt="">
         
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
@@ -410,7 +418,9 @@
                         <div class="modal-body">
                             <h2>Solucion ejercicio 2</h2>
                             <hr class="star-primary">
-                            <img src="img/ejercicios/seleccion/solucion_2.png" class="img-responsive img-centered" alt="">
+                            <p>Cualquiera de las siguientes soluciones es valida:</p>
+                            <img src="img/ejercicios/iteracion/solucion_2_1.png" class="img-responsive img-centered" alt="">
+                            <img src="img/ejercicios/iteracion/solucion_2_2.png" class="img-responsive img-centered" alt="">
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
                     </div>
@@ -433,7 +443,9 @@
                         <div class="modal-body">
                             <h2>Solucion ejercicio 3</h2>
                             <hr class="star-primary">
-                            <img src="img/ejercicios/seleccion/solucion_3.png" class="img-responsive img-centered" alt="">
+                            <p>Cualquiera de las siguientes soluciones es valida:</p>
+                            <img src="img/ejercicios/iteracion/solucion_3_1.png" class="img-responsive img-centered" alt="">
+                            <img src="img/ejercicios/iteracion/solucion_3_2.png" class="img-responsive img-centered" alt="">
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
                     </div>
@@ -441,11 +453,6 @@
             </div>
         </div>
     </div>
-
-
-    <!-- MODALES EJERCICIOS -->
-
-                            
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
