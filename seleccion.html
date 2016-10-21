@@ -95,72 +95,164 @@
                 En esta unidad aprenderas sobre otro concepto importante para la programacion: Las condiciones!
             </p>
 
-            <h2>Creando un bloque condicional</h2>
-            <p style="padding: 0em 0em 2em 0em">
-                Las condiciones son bloques especiales que permiten tomar decisiones en nuestros programas. 
-                <br/>
-                Por ejemplo podríamos decirle al robot que gire a la izquierda si y solo si una <b>variable </b>guarda el valor <b>1</b>.
-                <br/>
-                Esto se logra utilizando el bloque <b>Si - Entonces</b>.
-                <br/>
-                Para utilizarlo lo seleccionamos de la pestaña <b>Lógica</b> y lo arrastramos al área de trabajo:
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/mocks/seleccion_1.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/mocks/seleccion_2.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/mocks/seleccion_3.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 0em 2em 0em">
-                Luego agregamos una variable que será la que permita tomar la decision:
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/mocks/seleccion_4.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 0em 2em 0em">
-                Luego debemos crear la <b>condicion</b> con la que el robot decidira, por ejemplo la condicion puede ser <b>item = 0</b>:
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/mocks/seleccion_5.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/mocks/seleccion_6.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/mocks/seleccion_7.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/mocks/seleccion_8.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 0em 2em 0em">
-                Por ultimo agregamos los bloques que queremos que se ejecuten si se cumple la condicion:
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/mocks/seleccion_9.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 0em 2em 0em">
-                Como en el proyecto anterior el valor de item es 0, entonces <b>item = 0</b> es una condicion <b>VERDADERA</b> y el robot se movera hacia adelante por 10 segundos.
-                <br/>
-                En el siguiente proyecto, en cambio, el valor de item es 5, por lo que <b>item = 0</b> es una condicion <b>FALSA</b> y el robot no se movera:
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/mocks/seleccion_10.png" alt="robot" >
-            </p>
-            <p style="padding: 0em 0em 2em 0em">
-                Entendiendo estos conceptos podemos crear proyectos mas complejos. 
-                <br/>
-                Por ejemplo, el siguiente proyecto mueve el robot hacia adelante 4 veces, pero gira hacia la izquierda <b>solo 1 vez</b>, luego de moverse hacia adelante por segunda vez.
-            </p>
-            <p style="padding: 0em 5em 2em 5em">
-            <img class="img-responsive" src="img/programming/mocks/seleccion_11.png" alt="robot" >
-            </p>
-<!--             <p style="padding: 0em 0em 2em 0em">
-                Las condiciones pueden ser compuestas, por ejemplo podriamos consultar el valor de dos variables para decidir si avanzar o retroceder.
-            </p>
-             -->
+            <h2>Creando un bloque de seleccion</h2>
+            <div class="row">
+                <div class="col-md-5">
+                    <p style="padding: 0em 0em 2em 0em">
+                     El bloque de seleccion es un bloque especial que permite ejecutar otros bloques <b>SOLO SI</b> se cumple una determinada <b>condicion</b>.
+                    <br/>
+                    <br/>
+                    <!-- Por ejemplo podríamos decirle al robot que gire a la izquierda si y solo si una <b>variable </b>guarda el valor <b>1</b>.
+                    <br/> -->
+                    Esto se logra utilizando el bloque <b>Si - Entonces</b>.
+                    <br/>
+                    Para utilizarlo lo seleccionamos de la pestaña <b>Lógica</b> y lo arrastramos al área de trabajo:
+                    </p>
+                </div>
+                <div class="col-md-7">
+                    <p style="padding: 0em 0em 2em 0em">
+                        <img class="img-responsive" src="img/programming/mocks/seleccion_1.png" alt="robot" >
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <p style="padding: 0em 0em 2em 0em">
+                    </p>
+                </div>
+                <div class="col-md-7">
+                    <p style="padding: 0em 0em 2em 0em">
+                        <img class="img-responsive" src="img/programming/mocks/seleccion_2.png" alt="robot" >
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <p style="padding: 0em 0em 2em 0em">
+                    </p>
+                </div>
+                <div class="col-md-7">
+                    <p style="padding: 0em 0em 2em 0em">
+                        <img class="img-responsive" src="img/programming/mocks/seleccion_3.png" alt="robot" >
+                    </p>
+                </div>
+            </div>
+            <h2>Creando la condicion</h2>
+            <div class="row">
+                <div class="col-md-5">
+                    <p style="padding: 0em 0em 2em 0em">
+                        Luego agregamos una <b>variable</b> que será utilizada en la <b>condicion</b>
+                    </p>
+                </div>
+                <div class="col-md-7">
+                    <p style="padding: 0em 0em 2em 0em">
+                        <img class="img-responsive" src="img/programming/mocks/seleccion_4.png" alt="robot" >
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <p style="padding: 0em 0em 2em 0em">
+                        Luego debemos crear la <b>condicion</b> con la que el robot decidira, por ejemplo la condicion puede ser <b>item = 0</b>.
+
+                        Para lograr esto utilizamos el bloque de comparacion:
+                    </p>
+                </div>
+                <div class="col-md-7">
+                    <p style="padding: 0em 0em 2em 0em">
+                        <img class="img-responsive" src="img/programming/mocks/seleccion_12.png" alt="robot" >
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <p style="padding: 0em 0em 2em 0em">
+                        Y luego agregamos los valores que vamos en comparar, en este caso utilizaremos la variable item y el numero 0:
+                    </p>
+                </div>
+                <div class="col-md-7">
+                    <p style="padding: 0em 0em 2em 0em">
+                        <img class="img-responsive" src="img/programming/mocks/seleccion_5.png" alt="robot" >
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <p style="padding: 0em 0em 2em 0em">
+                        Accedemos a la categoria Numeros:
+                </div>
+                <div class="col-md-7">
+                    <p style="padding: 0em 0em 2em 0em">
+                        <img class="img-responsive" src="img/programming/mocks/seleccion_6.png" alt="robot" >
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <p style="padding: 0em 0em 2em 0em">
+                        Y arrastramos el numero 0 a la condicion:
+                </div>
+                <div class="col-md-7">
+                    <p style="padding: 0em 0em 2em 0em">
+                        <img class="img-responsive" src="img/programming/mocks/seleccion_7.png" alt="robot" >
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <p style="padding: 0em 0em 2em 0em">
+
+                </div>
+                <div class="col-md-7">
+                    <p style="padding: 0em 0em 2em 0em">
+                        <img class="img-responsive" src="img/programming/mocks/seleccion_8.png" alt="robot" >
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <p style="padding: 0em 0em 2em 0em">
+                        Por ultimo agregamos los bloques que queremos que se ejecuten si se cumple la condicion.
+                        <br/>
+                        <br/>
+                        En este proyecto el valor de item es 0, entonces <b>item = 0</b> es una condicion <b>VERDADERA</b> y el robot se movera hacia adelante por 10 segundos.
+                        <br/>
+                    </p>
+                </div>
+                <div class="col-md-7">
+                    <p style="padding: 0em 0em 2em 0em">
+                        <img class="img-responsive" src="img/programming/mocks/seleccion_9.png" alt="robot" >
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <p style="padding: 0em 0em 2em 0em">
+                        En este proyecto, en cambio, el valor de item es 5, por lo que <b>item = 0</b> es una condicion <b>FALSA</b> y el robot no se movera:
+                    </p>    
+                </div>
+                <div class="col-md-7">
+                    <p style="padding: 0em 0em 2em 0em">
+                        <img class="img-responsive" src="img/programming/mocks/seleccion_10.png" alt="robot" >
+                    </p>
+                </div>
+            </div>
+            <h2>Ejemplo seleccion</h2>
+            <div class="row">
+                <div class="col-md-5">
+                    <p style="padding: 0em 0em 2em 0em">
+                        Entendiendo estos conceptos podemos crear proyectos mas complejos. 
+                        <br/>
+                        <br/>
+                        Por ejemplo, el siguiente proyecto mueve el robot hacia adelante 4 veces, pero gira hacia la izquierda <b>solo 1 vez</b>, cuando el valor de item es 2.
+                    </p>    
+                </div>
+                <div class="col-md-7">
+                    <p style="padding: 0em 0em 0em 0em">
+                        <img class="img-responsive" src="img/programming/mocks/seleccion_11.png" alt="robot" >
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
